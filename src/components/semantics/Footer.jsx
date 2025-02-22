@@ -2,12 +2,14 @@ import Logo from "../Logo"
 import FooterColumn from '../FooterColumn'
 export default function Footer() {
     return (
-        <footer className="container-fluid mx-auto flex-column flex-lg-row">
-            <FooterColumn>
+        <footer className="mt-5 mx-auto flex-column flex-lg-row">
+            <FooterColumn className="flex flex-row">
                 <div>
                     <Logo type='standalone' width='64px' />
                 </div>
-                <h3>Copyright (c) 2025 Rammelion</h3>
+                <div>
+                    <h3>Copyright (c) 2025 Rammelion</h3>
+                </div>
                 <h2>MIT License</h2>
                 <p>
                     Permission is hereby granted, free of charge, to any person obtaining a copy

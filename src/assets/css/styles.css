@@ -4,13 +4,13 @@ body {
     margin-right: auto;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
-    background-color: #495E57;
+    
 }
 
 #root {
     display: flex;
     flex-direction: column;
-    background-color: #aaaaaa;
+    
 }
 
 h1, h2, h3, h4 {
@@ -51,7 +51,8 @@ footer {
 }
 
 .footer-column {
-    border: solid black 1px;
+    background-color: #FEFEFE;
+    text-align: left;
 }
 
 .footer-column ul {
