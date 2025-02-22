@@ -1,1 +1,1 @@
-It's just anothe a Bootstrap playground sandbox
+It's just another Bootstrap playground sandbox
