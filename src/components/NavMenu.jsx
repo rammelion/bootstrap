@@ -1,6 +1,6 @@
 export default function NavMenu() {
     return (
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <div className="collapse navbar-collapse nav justify-content-end" id="navbarNavDropdown">
             <ul className="navbar-nav">
             <li className="nav-item active">
                 <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
