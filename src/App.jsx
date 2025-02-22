@@ -4,6 +4,7 @@ import Nav from './components/semantics/Nav'
 import Header from './components/semantics/Header'
 import Main from './components/semantics/Main'
 import Footer from './components/semantics/Footer'
+import Head from './components/Head'
 
 // Works also with SSR as expected
 const Card = lazy(() => import('./Card'))

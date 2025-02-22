@@ -1,15 +1,11 @@
 import Logo from "../Logo"
 import FooterColumn from '../FooterColumn'
+
 export default function Footer() {
     return (
         <footer className="mt-5 mx-auto flex-column flex-lg-row">
             <FooterColumn className="flex flex-row">
-                <div>
-                    <Logo type='standalone' width='64px' />
-                </div>
-                <div>
-                    <h3>Copyright (c) 2025 Rammelion</h3>
-                </div>
+                <h4>Copyright (c) 2025 Rammelion</h4>
                 <h2>MIT License</h2>
                 <p>
                     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -34,18 +30,20 @@ export default function Footer() {
                 </p>
             </FooterColumn>
             <FooterColumn>
-            <div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
+                <div>
+                <p className="read-the-docs">
+                    Click on the Vite and React logos to learn more
+                </p>
+                <div className="text-center">
                 <a href="https://vite.dev" target="_blank">
-                    <img src="/vite.svg" className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://reactjs.org" target="_blank">
-                    <img src="/react.svg" className="logo react" alt="React logo" />
-                </a>
-            </div>
-            <h1>Vite + React</h1>
+                        <img src="/vite.svg" className="logo" alt="Vite logo" />
+                    </a>
+                    <a href="https://reactjs.org" target="_blank">
+                        <img src="/react.svg" className="logo react" alt="React logo" />
+                    </a>
+                </div>
+                </div>
+                <h4 className="text-center">Vite + React</h4>
             </FooterColumn>
             <FooterColumn>
                 <h2>Lorem Ipsum</h2>
