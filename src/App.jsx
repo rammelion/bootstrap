@@ -19,10 +19,6 @@ function App() {
             <Suspense fallback={<p>Loading card component...</p>}>
                 <Card />
             </Suspense>
-
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
         </Main>
         <Footer />
     </>

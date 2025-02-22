@@ -4,13 +4,17 @@ function Card() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="card">
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
-      </button>
-      <p>
+    <div className="card my-3">
+      <h3>
         Test counter
-      </p>
+      </h3>  
+      <button className="btn btn-primary mb-1" onClick={() => setCount((count) => count + 1)}>
+        Increase
+      </button>
+      <button className="btn btn-primary mb-1" onClick={() => setCount((count) => count - 1)}>
+        Decrease
+      </button>
+      <h3 className='mt-3'>{count}</h3>
     </div>
   )
 }

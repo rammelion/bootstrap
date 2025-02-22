@@ -4,7 +4,7 @@ body {
     margin-right: auto;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
-    color: #220E00;
+    background-color: #495E57;
 }
 
 #root {
@@ -27,7 +27,7 @@ nav, nav > ul {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color:aqua;
+    color:aqua
 }
 
 header, main, footer {
